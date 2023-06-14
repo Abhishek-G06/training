@@ -1,6 +1,6 @@
 //import java.util.*;  use for user input
 
-public class SumofEvenOdd {
+public class SumofEvenOdd{
     public static void main(String[] args) {
         //Scanner sc = new Scanner(System.in); used for users answers not for testing here
         // int[] numbers = sc.nextInt();
