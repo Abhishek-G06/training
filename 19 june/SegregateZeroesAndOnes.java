@@ -24,4 +24,4 @@ public class SegregateZeroesAndOnes {
 
         System.out.println("Output: " + output.toString());
     }
-}
+} 
