@@ -4,7 +4,7 @@ public class ArraySumComparison{
     public static void main(String[] args){
                                             // Sacnner sc = new Scanner(System.in);     (when taking input from user)
         int[] arr1 = {1,2,3,4,5};           
-        int[] arr2 = {5,5,3,2,1};           
+        int[] arr2 = {5,6,3,2,1};           
 
         int s1 = 0;     // storing sum of First array
         int s2 = 0;     // storing sum of Second array
@@ -12,10 +12,12 @@ public class ArraySumComparison{
         // for loop
         for(int i=0; i <arr1.length;i++){
             s1 += arr1[i];
-        }
-        for(int i=0; i<arr2.length; i++){
             s2 += arr2[i];
         }
+        //for(int i=0; i<arr2.length; i++){
+        //    s2 += arr2[i];
+        //}
+        
         /* 
         *  enhanced for loop
         
