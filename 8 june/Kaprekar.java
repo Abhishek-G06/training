@@ -1,8 +1,6 @@
 import java.util.*;
-class Kaprekar
-{
-    public static void main(String args[])
-    {
+class Kaprekar{
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");
         int num = sc.nextInt();
@@ -27,5 +25,6 @@ class Kaprekar
         else{
         System.out.println("Is not a kaprekar number");
         }
+        sc.close();
     }
 }

@@ -26,5 +26,6 @@ public class AnagramChecker {
         }else{
             System.out.println("String is not Anagram.");
         }
+        sc.close();
     }    
 }
